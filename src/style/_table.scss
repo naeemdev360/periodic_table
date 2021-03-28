@@ -1,0 +1,72 @@
+.App {
+  border: 1px solid white;
+  max-width: 100%;
+  min-height: 540px;
+  padding: 1rem;
+}
+.Table {
+  max-width: 100%;
+  min-height: 540px;
+  @include center-element;
+  flex-wrap: wrap;
+}
+.BottomRow {
+  @include center-element;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+.diatomic_nonmetal {
+  background-color: $diatomic_nonmetal;
+}
+.noble_gas {
+  background-color: $noble_gas;
+}
+.alkali_metal {
+  background-color: $alkali_metal;
+}
+.alkaline_earth_metal {
+  background-color: $alkaline_earth_metal;
+}
+.metalloid {
+  background-color: $metalloid;
+}
+.polyatomic_nonmetal {
+  background-color: $polyatomic_nonmetal;
+}
+.post-transition_metal {
+  background-color: $post-transition_metal;
+}
+.transition_metal {
+  background-color: $transition_metal;
+}
+.unknown_probably_transition_metal {
+  background-color: $unknown_probably_transition_metal;
+}
+.unknown_probably_post-transition_metal {
+  background-color: $unknown_probably_post-transition_metal;
+}
+.unknown_probably_metalloid {
+  background-color: $unknown_probably_metalloid;
+}
+.unknown_predicted_to_be_noble_gas {
+  background-color: $unknown_predicted_to_be_noble_gas;
+}
+.lanthanide {
+  background-color: $lanthanide;
+}
+.actinide {
+  background-color: $actinide;
+}
+
+.Element {
+  padding: 0.5rem;
+  border: 1px solid aliceblue;
+  @include center-element;
+  min-width: 5.55%;
+  min-height: 80px;
+  color: black;
+  font-weight: bold;
+}
+.Element.empty {
+  border: 1px solid transparent;
+}
